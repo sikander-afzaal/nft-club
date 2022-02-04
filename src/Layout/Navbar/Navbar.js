@@ -11,7 +11,7 @@ function Navbar() {
 
   React.useEffect(() => {
     const handler = () => {
-      if (window.scrollY > 100) {
+      if (window.scrollY > 10) {
         setScrolled(true);
       } else {
         setScrolled(false);
