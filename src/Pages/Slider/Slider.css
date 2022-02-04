@@ -1,0 +1,11 @@
+.slider-img {
+  max-width: 100%;
+  object-fit: contain;
+}
+.swiper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8rem;
+  justify-content: center;
+}

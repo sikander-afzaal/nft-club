@@ -1,0 +1,123 @@
+.about {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 5rem;
+}
+.about-right,
+.about-left {
+  flex: 0.5;
+}
+.about-right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 40px;
+}
+.about-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-left img {
+  max-width: 50%;
+  object-fit: contain;
+}
+.about .heading-div {
+  width: 100%;
+}
+.about .heading-div .small {
+  width: 100%;
+  font-size: 6rem;
+}
+.about .heading-div .big {
+  top: 50%;
+}
+.about-desc {
+  text-align: left;
+  font-size: 1.5rem;
+  line-height: 1.7;
+  width: 90%;
+}
+@media screen and (max-width: 1661px) {
+  .about .heading-div {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .about .heading-div .small {
+    width: 100%;
+    font-size: 4rem;
+  }
+  .about .heading-div .big {
+    font-size: 7rem;
+  }
+  .about-desc {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 1052px) {
+  .about-left img {
+    display: none;
+  }
+  .about-right {
+    flex: 1;
+  }
+  .about-left {
+    display: none;
+  }
+  .about {
+    margin-top: 0rem;
+    padding-left: 2rem;
+  }
+}
+@media screen and (max-width: 958px) {
+  .about .heading-div {
+    width: 100%;
+  }
+  .about-desc {
+    width: 100%;
+    text-align: left;
+  }
+  .about {
+    padding: 0;
+    align-items: center;
+    padding-inline: 2rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .about {
+    margin-top: 0rem;
+  }
+  .about-right {
+    width: 100%;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 664px) {
+  .about-desc {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 664px) {
+  .about .heading-div .small {
+    font-size: 3.5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .about {
+    margin-top: 3rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .about {
+    gap: 20px;
+  }
+  .about-desc {
+    font-size: 1.2rem;
+  }
+}
