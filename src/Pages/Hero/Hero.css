@@ -167,6 +167,13 @@
   }
 }
 @media screen and (max-width: 664px) {
+  .hero-left {
+    gap: 0rem;
+    align-items: center;
+  }
+  .desc-hero {
+    margin: 1rem 0rem;
+  }
   .hero {
     padding-left: 0rem;
     padding-inline: 2rem;
@@ -196,6 +203,7 @@
   }
   .btn-div {
     justify-content: center;
+    margin: 2rem 0rem;
   }
   .hero-btn {
     width: 50%;
@@ -232,9 +240,19 @@
 }
 @media screen and (max-width: 417px) {
   .hero {
-    padding-inline: 1rem;
+    padding-inline: 0.5rem;
+    gap: 0rem;
+  }
+  .hero-left {
+    gap: 0rem;
+    align-items: center;
+  }
+  .desc-hero {
+    margin: 1rem 0rem;
   }
   .small {
-    font-size: 3rem;
+    font-size: 2rem;
+    line-height: 46px;
+    text-align: center;
   }
 }
