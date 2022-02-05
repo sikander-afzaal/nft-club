@@ -40,7 +40,12 @@
 
 .nav-links {
   display: flex;
+
   align-items: center;
+}
+.nav-link {
+  text-decoration: none;
+  color: #04060f;
 }
 .nav-link:not(:last-child) {
   margin-right: 36px;

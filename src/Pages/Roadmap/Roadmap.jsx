@@ -57,7 +57,7 @@ function Roadmap() {
   }, []);
 
   return (
-    <div className="roadmap-wrapper">
+    <div id="roadmap" className="roadmap-wrapper">
       <div className="container-wrapper">
         <div className="roadmap">
           <div className="heading-div">

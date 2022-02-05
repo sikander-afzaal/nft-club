@@ -3,14 +3,14 @@ import "./About.css";
 import img from "../../Assets/about-img.png";
 function About() {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <div className="about-left">
         <img src={img} alt="" />
       </div>
       <div className="about-right">
         <div className="heading-div">
           <h1 className="big teko">ABOUT US</h1>
-          <h1 className="small teko">Welcome Cat</h1>
+          <h1 className="small teko">ABOUT</h1>
         </div>
         <p className="about-desc">
           In our mission to help save the endangered wildlife, we have chosen

@@ -4,7 +4,7 @@ import CountDownTimer from "../../Components/Timer/CountDownTimer.js";
 import img from "../../Assets/hero-img (1).png";
 function Hero() {
   return (
-    <div className="hero">
+    <div id="hero" className="hero">
       <div className="hero-left">
         <div className="heading-div">
           <h1 className="big teko">WELCOME</h1>
