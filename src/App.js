@@ -4,6 +4,7 @@ import Hero from "./Pages/Hero/Hero.jsx";
 import About from "./Pages/About/About.jsx";
 import Slider from "./Pages/Slider/Slider.jsx";
 import Faq from "./Pages/Faq/Faq.jsx";
+import Roadmap from "./Pages/Roadmap/Roadmap.jsx";
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Slider />
       <About />
+      <Roadmap />
       <Faq />
     </div>
   );
