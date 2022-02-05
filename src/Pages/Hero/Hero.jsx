@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import CountDownTimer from "../../Components/Timer/CountDownTimer.js";
-import img from "../../Assets/slider/slider (6).jpg";
+import img from "../../Assets/hero-img (1).png";
 function Hero() {
   return (
     <div className="hero">

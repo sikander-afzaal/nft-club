@@ -7,7 +7,7 @@ function CountDownTimer() {
   const [timerSeconds, setTimerSeconds] = useState("00");
   let interval = useRef();
   const startTimer = () => {
-    const countdownDate = new Date("Nov 26, 2022 00:00:00 ").getTime();
+    const countdownDate = new Date("Feb 26, 2022 00:00:00 ").getTime();
     interval = setInterval(() => {
       const now = new Date().getTime();
       const distance = countdownDate - now;
@@ -40,21 +40,26 @@ function CountDownTimer() {
   return (
     <div className="timer ">
       <div className="time-wrap">
-        <div className="teko timer-number fs-144px pink ">
+        <div className="teko timer-number">{timerDays}</div>
+        <span> DAYS</span>
+      </div>
+      <div className="timer-dot "></div>
+      <div className="time-wrap">
+        <div className="teko timer-number">
           {/* {timer.hours} */}
           {timerHours}
         </div>
-        <span className="fs-30px weight-6 dark-blue"> HRS</span>
+        <span> HRS</span>
       </div>
-      <div className="timer-dot pink"></div>
+      <div className="timer-dot "></div>
       <div className="time-wrap">
-        <div className="teko timer-number fs-144px pink ">{timerMinutes}</div>
-        <span className="fs-30px weight-6 dark-blue">MIN</span>
+        <div className="teko timer-number">{timerMinutes}</div>
+        <span>MIN</span>
       </div>
-      <div className="timer-dot pink"></div>
+      <div className="timer-dot"></div>
       <div className="time-wrap">
-        <div className="teko timer-number fs-144px pink ">{timerSeconds}</div>
-        <span className="fs-30px weight-6 dark-blue">SEC</span>
+        <div className="teko timer-number">{timerSeconds}</div>
+        <span>SEC</span>
       </div>
     </div>
   );

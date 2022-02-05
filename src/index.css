@@ -6,11 +6,15 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
-
+body {
+  background-color: #f0f8ff54;
+}
 .montserrat {
   font-family: "Montserrat", sans-serif !important;
 }
-
+/* * p {
+  color: #a98025;
+} */
 .teko {
   font-family: "Teko", sans-serif !important;
 }
