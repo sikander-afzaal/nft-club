@@ -49,7 +49,7 @@ function Navbar() {
               />
               <ScrollLink
                 to="home"
-                className="nav-link pointer fs-16px dark-blue weight-4 montserrat"
+                className="nav-link montserrat"
                 onClick={() => setShow(false)}
               >
                 Home
@@ -57,21 +57,21 @@ function Navbar() {
               <ScrollLink
                 to="about"
                 offset={80}
-                className="nav-link pointer fs-16px dark-blue weight-4 montserrat"
+                className="nav-link montserrat"
                 onClick={() => setShow(false)}
               >
                 About
               </ScrollLink>
               <ScrollLink
                 to="roadmap"
-                className="nav-link pointer fs-16px dark-blue weight-4 montserrat"
+                className="nav-link montserrat"
                 onClick={() => setShow(false)}
               >
                 Road Map
               </ScrollLink>
               <ScrollLink
                 to="team"
-                className="nav-link pointer fs-16px dark-blue weight-4 montserrat"
+                className="nav-link montserrat"
                 onClick={() => setShow(false)}
                 offset={-100}
               >
@@ -80,16 +80,13 @@ function Navbar() {
               <ScrollLink
                 to="faq"
                 offset={-100}
-                className="nav-link pointer fs-16px dark-blue weight-4 montserrat"
+                className="nav-link montserrat"
                 onClick={() => setShow(false)}
               >
                 FAQ
               </ScrollLink>
             </div>
-            <a
-              href="#"
-              className="nav-btn fs-24px teko weight-5 dark-blue pointer"
-            >
+            <a href="#" className="nav-btn teko">
               Join Our Discord
             </a>
           </div>
