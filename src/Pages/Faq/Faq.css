@@ -45,6 +45,7 @@
   border-top: 15px;
   cursor: pointer;
   border-radius: 15px;
+  transition: all 0.3s ease-in-out;
 }
 .faq-btn p {
   font-size: 1.2rem;
@@ -62,8 +63,7 @@
   max-height: 0px;
   overflow-y: hidden;
   background-color: #ffa901;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-radius: 15px;
   width: 100%;
 }
 .answer {
@@ -74,6 +74,10 @@
   padding: 1.5rem 2rem;
   max-height: 600px;
   overflow-y: visible;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 .active-btn {
   color: white;
