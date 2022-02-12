@@ -3,6 +3,7 @@
   min-height: 100vh;
   height: auto;
   padding: 4rem 0rem;
+  margin-top: 5rem;
 }
 .roadmap {
   display: flex;
@@ -13,18 +14,12 @@
 .desc-roadmap {
   font-size: 1.4rem;
   text-align: center;
+  width: 70%;
 }
-.roadmap .heading-div {
-  margin-bottom: 40px;
+.roadmap .heading {
+  margin-bottom: 1rem;
 }
-.roadmap .heading-div .big {
-  left: -46%;
-  top: 53%;
-}
-.roadmap .heading-div .small {
-  font-size: 6rem;
-  width: 100%;
-}
+
 .roadmap-content {
   height: 1250px;
   position: relative;
@@ -178,7 +173,12 @@
   .pink {
     font-size: 2.5rem;
   }
-
+  .roadmap-wrapper {
+    margin-top: 0;
+  }
+  .desc-roadmap {
+    width: 95%;
+  }
   .roadmap-box-content {
     width: 300px;
     padding: 25px;
@@ -268,6 +268,9 @@
   .dark-blue {
     font-size: 1rem;
   }
+  .roadmap-wrapper {
+    margin-top: 2rem;
+  }
   .roadmap-box:not(:first-child) {
     /* border: 2px solid blue; */
     padding-left: 3rem;
@@ -308,5 +311,8 @@
   }
   .roadmap-wrapper {
     padding: 0;
+  }
+  .desc-roadmap {
+    font-size: 1rem;
   }
 }

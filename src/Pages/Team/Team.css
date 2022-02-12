@@ -1,0 +1,76 @@
+.team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.heading {
+  max-width: 100%;
+  object-fit: contain;
+}
+.team-desc {
+  margin: 0;
+  width: 70%;
+  margin-top: 2rem;
+  text-align: center;
+}
+.team .splide {
+  margin-top: 3rem;
+}
+
+.box-team {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+  text-align: center;
+}
+.box-team:hover .team-img {
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
+  transform: scale(0.9);
+}
+.team-img {
+  transition: all 0.25s ease-in-out;
+  max-width: 80%;
+  object-fit: contain;
+  border-radius: 25px;
+}
+.text-div-team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-direction: column;
+}
+.text-div-team h3 {
+  font-size: 1.3rem;
+}
+.text-div-team p {
+  font-size: 1rem;
+}
+@media screen and (max-width: 1000px) {
+  .team {
+    margin-top: 0rem;
+  }
+}
+@media screen and (max-width: 978px) {
+  .heading {
+    max-width: 55%;
+  }
+  .team-desc {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 718px) {
+  .heading {
+    max-width: 85%;
+  }
+  .team-desc {
+    width: 90%;
+  }
+}

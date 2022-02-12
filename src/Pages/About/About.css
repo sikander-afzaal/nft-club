@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  margin-top: 5rem;
+  margin-top: 8rem;
 }
 .about-right,
 .about-left {
@@ -49,13 +49,6 @@
   }
 }
 @media screen and (max-width: 1200px) {
-  .about .heading-div .small {
-    width: 100%;
-    font-size: 4rem;
-  }
-  .about .heading-div .big {
-    font-size: 7rem;
-  }
   .about-desc {
     font-size: 1.2rem;
   }
@@ -66,6 +59,7 @@
   }
   .about-right {
     flex: 1;
+    align-items: center;
   }
   .about-left {
     display: none;
@@ -75,6 +69,12 @@
     padding-left: 2rem;
   }
 }
+@media screen and (max-width: 992px) {
+  .about {
+    margin-top: 3rem;
+  }
+}
+
 @media screen and (max-width: 958px) {
   .about .heading-div {
     width: 100%;
@@ -96,6 +96,7 @@
   .about-right {
     width: 100%;
     gap: 20px;
+    align-items: center;
   }
 }
 @media screen and (max-width: 664px) {
@@ -120,5 +121,11 @@
   }
   .about-desc {
     font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .about-desc {
+    font-size: 1rem;
   }
 }

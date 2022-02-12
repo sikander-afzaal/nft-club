@@ -1,9 +1,9 @@
 import React from "react";
+//update logo in the logo.js file
 import Logo from "../../Components/Logo/Logo.js";
 import "./Navbar.css";
 import hamburger from "../../Assets/hamburger.png";
 import crossIcon from "../../Assets/cross-icon.png";
-import { Link as a } from "react-scroll";
 
 function Navbar() {
   const [scrolled, setScrolled] = React.useState(false);
@@ -36,7 +36,7 @@ function Navbar() {
           </div>
 
           <div className="hamburger" onClick={() => setShow(!show)}>
-            <img src={hamburger} alt="" />
+            <img src={hamburger} alt="..." />
           </div>
 
           <div className={`navbar-right ${show ? "show" : ""}`}>
@@ -45,7 +45,7 @@ function Navbar() {
                 onClick={() => setShow(false)}
                 className="cross-icon"
                 src={crossIcon}
-                alt=""
+                alt="..."
               />
               <a
                 href="#hero"

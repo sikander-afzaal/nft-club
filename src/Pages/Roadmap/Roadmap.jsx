@@ -1,5 +1,6 @@
 import React from "react";
 import "./Roadmap.css";
+import head from "../../Assets/headings/roadmap.png";
 function Roadmap() {
   let milkRef = React.useRef();
   let bottle = React.useRef();
@@ -60,10 +61,11 @@ function Roadmap() {
     <div id="roadmap" className="roadmap-wrapper">
       <div className="container-wrapper">
         <div className="roadmap">
-          <div className="heading-div">
+          {/* <div className="heading-div">
             <h1 className="big teko">Roadmap</h1>
             <h1 className="small teko">Roadmap</h1>
-          </div>
+          </div> */}
+          <img src={head} alt="" className="heading" />
           <p className="desc-roadmap">
             Our commitment as a team to this project is one that is beyond a
             successful token sale, but towards building a product that our

@@ -1,17 +1,19 @@
 import React from "react";
 import "./About.css";
 import img from "../../Assets/about-img.png";
+import head from "../../Assets/headings/statement.png";
 function About() {
   return (
     <div id="about" className="about">
       <div className="about-left">
-        <img src={img} alt="" />
+        <img src={img} alt="..." />
       </div>
       <div className="about-right">
-        <div className="heading-div">
+        {/* <div className="heading-div">
           <h1 className="big teko">ABOUT US</h1>
           <h1 className="small teko">ABOUT</h1>
-        </div>
+        </div> */}
+        <img src={head} alt="" className="heading" />
         <p className="about-desc">
           In our mission to help save the endangered wildlife, we have chosen
           the three most endangered species in the world to become the faces of

@@ -7,7 +7,7 @@
   text-align: center;
   padding: 3rem 0rem;
   gap: 2rem;
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 .faq .heading-div .big {
   left: -57%;
@@ -41,9 +41,10 @@
   align-items: center;
   width: 100%;
   padding: 2rem 2rem;
-  background-color: #ffa901;
+  background-color: black;
   border-top: 15px;
   cursor: pointer;
+  color: white;
   border-radius: 7px;
   transition: all 0.3s ease-in-out;
 }
@@ -62,8 +63,9 @@
   padding-inline: 2rem;
   max-height: 0px;
   overflow-y: hidden;
-  background-color: #ffa901;
+  background-color: black;
   border-radius: 7px;
+  color: white;
   width: 100%;
 }
 .answer {
@@ -141,6 +143,7 @@
 }
 @media screen and (max-width: 450px) {
   .faq {
+    margin-top: 5rem;
     padding: 0;
   }
 }

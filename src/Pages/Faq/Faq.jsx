@@ -6,7 +6,10 @@ import {
   faMinusSquare,
 } from "@fortawesome/free-regular-svg-icons";
 function Faq() {
+  // if you want to add more questions just add another false here or vice versa
   const [open, setOpen] = useState([false, false, false, false, false, false]);
+
+  //function to check which faq is opened
   const clickHandler = (e) => {
     const num = e.target.dataset.num;
     setOpen((prev) => {
@@ -20,7 +23,6 @@ function Faq() {
       });
       return newArr;
     });
-    console.log(open);
   };
   return (
     <div id="faq" className="faq">
@@ -180,6 +182,9 @@ function Faq() {
             </p>
           </div>
         </div>
+        {
+          // when you add a new faq make sure to increment the value in the brackets
+        }
       </div>
     </div>
   );
