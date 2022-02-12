@@ -245,7 +245,7 @@
   }
   .hero {
     padding-left: 0rem;
-    padding-inline: 2rem;
+    align-items: center;
     padding-top: 8rem;
   }
   .small {
