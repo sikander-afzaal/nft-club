@@ -30,6 +30,7 @@ function Team() {
           gap: "2rem",
           arrows: false,
           pagination: false,
+          drag: false,
           interval: "0",
           speed: "6000",
           perMove: 1,
