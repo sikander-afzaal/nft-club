@@ -193,6 +193,7 @@
 @media screen and (max-width: 992px) {
   .hero {
     flex-direction: column;
+    gap: 5rem;
   }
   .small {
     width: 63%;
@@ -247,6 +248,7 @@
     padding-left: 0rem;
     align-items: center;
     padding-top: 8rem;
+    gap: 2rem;
   }
   .small {
     width: 100%;

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Hero.css";
-import img from "../../Assets/hero-img (1).png";
+import img from "../../Assets/about-img.png";
+
 function Hero({ value }) {
   const [count, setCount] = useState(0);
   return (

@@ -1,18 +1,18 @@
 .slider-img {
   max-width: 100%;
-  pointer-events: none;
   object-fit: contain;
 }
 .swiper {
+  margin-top: 6rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3rem;
-  margin-top: 5rem;
+  gap: 4rem;
   justify-content: center;
 }
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 700px) {
   .swiper {
-    margin-top: 2rem;
+    gap: 4rem;
   }
 }

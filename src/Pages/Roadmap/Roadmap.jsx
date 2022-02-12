@@ -61,10 +61,6 @@ function Roadmap() {
     <div id="roadmap" className="roadmap-wrapper">
       <div className="container-wrapper">
         <div className="roadmap">
-          {/* <div className="heading-div">
-            <h1 className="big teko">Roadmap</h1>
-            <h1 className="small teko">Roadmap</h1>
-          </div> */}
           <img src={head} alt="" className="heading" />
           <p className="desc-roadmap">
             Our commitment as a team to this project is one that is beyond a
