@@ -70,7 +70,7 @@ function Navbar() {
                 Road Map
               </a>
               <a
-                href="#"
+                href="#team"
                 className="nav-link montserrat"
                 onClick={() => setShow(false)}
                 offset={-100}

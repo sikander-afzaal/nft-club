@@ -22,7 +22,7 @@ function Slider({ imageSelector }) {
           gap: "5rem",
           arrows: false,
           pagination: false,
-          drag: true,
+          drag: false,
           interval: "0",
           speed: "3000",
           perMove: 1,

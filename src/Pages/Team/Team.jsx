@@ -6,7 +6,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 function Team() {
   return (
-    <div className="team">
+    <div id="team" className="team">
       {/* <div className="heading-div">
         <h1 className="big teko">TEAM</h1>
         <h1 className="small teko">TEAM</h1>
