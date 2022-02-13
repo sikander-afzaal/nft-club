@@ -1,72 +1,36 @@
 .about {
-  min-height: 80vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   margin-top: 8rem;
-}
-.about-right,
-.about-left {
-  flex: 0.5;
-}
-.about-right {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
   gap: 40px;
-}
-.about-left {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.about-left img {
-  max-width: 50%;
-  object-fit: contain;
-}
-.about .heading-div {
-  width: 100%;
-}
-.about .heading-div .small {
-  width: 100%;
-  font-size: 6rem;
-}
-.about .heading-div .big {
-  top: 50%;
+  flex-direction: column;
 }
 .about-desc {
+  margin-top: 1rem;
   text-align: left;
   font-size: 1.5rem;
   line-height: 1.7;
-  width: 90%;
+  width: 65%;
   color: #a98025;
 }
-@media screen and (max-width: 1661px) {
-  .about .heading-div {
-    width: 100%;
+
+@media screen and (max-width: 1450px) {
+  .about-desc {
+    width: 75%;
   }
 }
 @media screen and (max-width: 1200px) {
   .about-desc {
-    font-size: 1.2rem;
+    width: 85%;
   }
 }
 @media screen and (max-width: 1052px) {
-  .about-left img {
-    display: none;
-  }
-  .about-right {
-    flex: 1;
-    align-items: center;
-  }
-  .about-left {
-    display: none;
-  }
   .about {
     margin-top: 0rem;
-    padding-left: 2rem;
+    padding-left: 0rem;
   }
 }
 @media screen and (max-width: 992px) {
@@ -76,9 +40,6 @@
 }
 
 @media screen and (max-width: 958px) {
-  .about .heading-div {
-    width: 100%;
-  }
   .about-desc {
     width: 100%;
     text-align: left;
@@ -91,12 +52,7 @@
 }
 @media screen and (max-width: 800px) {
   .about {
-    margin-top: 0rem;
-  }
-  .about-right {
-    width: 100%;
-    gap: 20px;
-    align-items: center;
+    margin-top: 5rem;
   }
 }
 @media screen and (max-width: 664px) {
@@ -108,11 +64,7 @@
     margin-top: 5rem;
   }
 }
-@media screen and (max-width: 664px) {
-  .about .heading-div .small {
-    font-size: 3.5rem;
-  }
-}
+
 @media screen and (max-width: 600px) {
   .about {
     margin-top: 3rem;
