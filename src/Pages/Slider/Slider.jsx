@@ -35,10 +35,8 @@ function Slider({ imageSelector }) {
             },
             800: {
               perPage: 3,
-              autoplay: false,
             },
             500: {
-              autoplay: false,
               perPage: 2,
             },
           },

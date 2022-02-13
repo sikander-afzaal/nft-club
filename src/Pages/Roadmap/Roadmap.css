@@ -180,7 +180,9 @@
     width: 300px;
     padding: 25px;
   }
-
+  .roadmap-wrapper {
+    margin-top: 0;
+  }
   .roadmap-content {
     height: auto;
     margin-bottom: 100px;

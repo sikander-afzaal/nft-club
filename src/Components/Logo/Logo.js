@@ -1,10 +1,10 @@
 import React from "react";
-import LogoImg from "../../Assets/Logo-img.svg";
+import LogoImg from "../../Assets/logo.png";
 
 function Logo() {
   return (
     <div>
-      <img src={LogoImg} style={{ width: "100%" }} alt="..." />
+      <img className="h_logo" src={LogoImg} alt="..." />
     </div>
   );
 }

@@ -8,8 +8,7 @@ function Hero({ value }) {
     <div id="hero" className="hero">
       <div className="hero-left">
         <div className="heading-div">
-          <h1 className="big teko">WELCOME</h1>
-          <h1 className="small teko">Welcome to the NFT Club</h1>
+          <h1 className="small teko">THIS IS OUR NEW PROJECT</h1>
         </div>
         <div className="counter">
           <div
