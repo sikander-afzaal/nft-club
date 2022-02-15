@@ -56,12 +56,6 @@ function Roadmap() {
       <div className="container-wrapper">
         <div className="roadmap">
           <img src={head} alt="" className="heading" />
-          <p className="desc-roadmap">
-            Our commitment as a team to this project is one that is beyond a
-            successful token sale, but towards building a product that our
-            community loves, enjoys and also benefits from.
-          </p>
-
           <div className="roadmap-content-wrapper">
             <div className="roadmap-content" ref={lineRef}>
               <div className="roadmap-box bot" ref={bottle}>
