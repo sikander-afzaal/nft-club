@@ -20,7 +20,7 @@ function Roadmap() {
       const box3Top = box3.current.getBoundingClientRect().top;
       const box4Top = box4.current.getBoundingClientRect().top;
       const box5Top = box5.current.getBoundingClientRect().top;
-
+      // dasdasd
       if (bottleTop > boxTop) {
         milkRef.current.style.height = "20px";
       } else {
