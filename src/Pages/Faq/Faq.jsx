@@ -122,7 +122,15 @@ function Faq() {
           </div>
           <div className={`faq-answer ${open[3] ? "active" : ""}`}>
             <p className="answer">
-              歡迎前往我們公司官網 www.neo.cafe 查看服務項目。
+              歡迎前往我們公司官網{" "}
+              <a
+                style={{ color: "white" }}
+                target={"blank"}
+                href="https://neo.cafe/"
+              >
+                www.neo.cafe
+              </a>{" "}
+              查看服務項目。
             </p>
           </div>
         </div>
