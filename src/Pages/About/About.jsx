@@ -6,20 +6,14 @@ function About() {
     <div id="about" className="about">
       <img src={head} alt="" className="heading" />
       <p className="about-desc">
-        In our mission to help save the endangered wildlife, we have chosen the
-        three most endangered species in the world to become the faces of
-        BabyBoom Club.
+        NFT，非同質化代幣，在近一年快速的擄獲一線品牌、藝術家、媒體、明星、網紅，成為他們與受眾建立關係，進而變現，甚至是商業模式轉型的關鍵工具。
+        然而我們發現:
       </p>
       <p className="about-desc">
-        BabyBoom Club is a Baby NFT that’s soon to be performing on the Ethereum
-        blockchain. They are on a mission to educate & create awareness to the
-        eneral public about endangered BabyBoom Club around the world.
+        目前相關技術與資訊在台灣甚至亞洲的大眾普及度遠低於歐美，對於非該產業的業者來說加入NFT行列的門檻較高，如果沒有一定資源或人脈，盲目跟風投入後很難達到預期的成效。
       </p>
       <p className="about-desc">
-        If you love good old rock music like we do and can’t help yourself but
-        to rage out when your favorite songs comes on, heck you are in for a
-        treat mates. Look no further as you have found that one project which
-        shares the passion for music like you do.
+        而我們希望讓NFT普及化，任何人都能過NFT結合自身產品或商業模式，進而提升品牌價值。
       </p>
     </div>
   );

@@ -79,64 +79,54 @@ function Roadmap() {
               <div className="roadmap-box" ref={box}>
                 <div className="roadmap-box-content left">
                   <p className="fs-48px teko pink weight-7 lh-42px mb-10px">
-                    10% - Welcome{" "}
+                    2022 Q1 團隊招募
                   </p>
                   <p className="fs-18px dark-blue lh-26px weight-5">
-                    To sell your NFTs on a marketplace, you’ll need to locate
-                    them in your collection, click on them and find the “sell”
-                    button.
+                    集結區塊鏈工程師、前端工程師、社群行銷人才，組成一站式NFT發行顧問團隊。
                   </p>
                 </div>
               </div>
               <div className="roadmap-box" ref={box2}>
                 <div className="roadmap-box-content right">
                   <p className="fs-48px teko pink weight-7 lh-42px mb-10px">
-                    30% - ENTRANCE OF CAVIAR
+                    2022 Q2 實驗行NFT技術開發
                   </p>
                   <p className="fs-18px dark-blue lh-26px weight-5">
-                    To sell your NFTs on a marketplace, you’ll need to locate
-                    them in your collection, click on them and find the “sell”
-                    button.
+                    NFT碎片化、NFT外觀變化、3D角色進入元宇宙等，提供多變性的專案玩法。
                   </p>
                 </div>
               </div>
               <div className="roadmap-box" ref={box3}>
                 <div className="roadmap-box-content left">
                   <p className="fs-48px teko pink weight-7 lh-42px mb-10px">
-                    50% - DRIPPY
+                    2022 Q3 結合NFT與電商系統
                   </p>
                   <p className="fs-18px dark-blue lh-26px weight-5">
-                    To sell your NFTs on a marketplace, you’ll need to locate
-                    them in your collection, click on them and find the “sell”
-                    button.
+                    使用Shopify、Wordpress系統，增加NFT網站的開發效率，同時讓消費者透過信用卡、金融卡直接購買NFT。
                   </p>
                 </div>
               </div>
               <div className="roadmap-box" ref={box4}>
                 <div className="roadmap-box-content right">
                   <p className="fs-48px teko pink weight-7 lh-42px mb-10px">
-                    70% - Burning
+                    2022 Q4 推出NFT電商應用功能
                   </p>
                   <p className="fs-18px dark-blue lh-26px weight-5">
-                    To sell your NFTs on a marketplace, you’ll need to locate
-                    them in your collection, click on them and find the “sell”
-                    button.
+                    NFT會員憑證、NFT分潤機制、NFT線下兌換等，探索更多相關實際應用場景。
                   </p>
                 </div>
               </div>
               <div className="roadmap-box" ref={box5}>
                 <div className="roadmap-box-content left">
                   <p className="fs-48px teko pink weight-7 lh-42px mb-10px">
-                    90% - TO THE MOON!
+                    2023 Q1 開發NFT API
                   </p>
                   <p className="fs-18px dark-blue lh-26px weight-5">
-                    To sell your NFTs on a marketplace, you’ll need to locate
-                    them in your collection, click on them and find the “sell”
-                    button.
+                    該API可串接各大電商系統，增加NFT電商功能運用的普及率
                   </p>
                 </div>
               </div>
-              <div className="roadmap-box" ref={box6}>
+              {/* <div className="roadmap-box" ref={box6}>
                 <div className="roadmap-box-content right">
                   <p className="fs-48px teko pink weight-7 lh-42px mb-10px">
                     100% - BREEDING
@@ -147,7 +137,7 @@ function Roadmap() {
                     button.
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

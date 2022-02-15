@@ -5,11 +5,11 @@
   align-items: center;
   flex-direction: row;
   margin-top: 8rem;
-  gap: 40px;
+  gap: 30px;
   flex-direction: column;
 }
 .about-desc {
-  margin-top: 1rem;
+  margin-top: 0rem;
   text-align: left;
   font-size: 1.5rem;
   line-height: 1.7;

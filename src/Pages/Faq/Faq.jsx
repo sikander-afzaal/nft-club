@@ -7,7 +7,7 @@ import {
 } from "@fortawesome/free-regular-svg-icons";
 function Faq() {
   // if you want to add more questions just add another false here or vice versa
-  const [open, setOpen] = useState([false, false, false, false, false, false]);
+  const [open, setOpen] = useState([false, false, false, false]);
 
   //function to check which faq is opened
   const clickHandler = (e) => {
@@ -38,7 +38,7 @@ function Faq() {
             className={`faq-btn ${open[0] ? "border-radius" : ""}`}
           >
             <p className={`${open[0] ? "active-btn" : ""}`}>
-              What does NFT Collection Comprise of?
+              這個項目在做什麼？
             </p>
             {open[0] ? (
               <FontAwesomeIcon
@@ -51,8 +51,8 @@ function Faq() {
           </div>
           <div className={`faq-answer ${open[0] ? "active" : ""}`}>
             <p className="answer">
-              To sell your NFTs on a marketplace, you’ll need to locate them in
-              your collection, click on them and find the “sell” button.
+              THE NEW PROJECT 是在 Solana 上發行的 NFT 項目，NFT
+              持有者依照屬性，能獲得公司不同比例的年度分紅。
             </p>
           </div>
         </div>
@@ -62,9 +62,7 @@ function Faq() {
             onClick={clickHandler}
             className={`faq-btn ${open[1] ? "border-radius" : ""}`}
           >
-            <p className={`${open[1] ? "active-btn" : ""}`}>
-              What does NFT Collection Comprise of?
-            </p>
+            <p className={`${open[1] ? "active-btn" : ""}`}>還有其他賦能嗎？</p>
             {open[1] ? (
               <FontAwesomeIcon
                 className={`${open[1] ? "active-btn" : ""}`}
@@ -76,8 +74,8 @@ function Faq() {
           </div>
           <div className={`faq-answer ${open[1] ? "active" : ""}`}>
             <p className="answer">
-              To sell your NFTs on a marketplace, you’ll need to locate them in
-              your collection, click on them and find the “sell” button.
+              NFT 設計是由「怪胎秀紋身俱樂部」主理人繪製，所有持有者能憑 NFT
+              到店裡兌換該圖像的刺青（限本人使用）
             </p>
           </div>
         </div>
@@ -87,9 +85,7 @@ function Faq() {
             onClick={clickHandler}
             className={`faq-btn ${open[2] ? "border-radius" : ""}`}
           >
-            <p className={`${open[2] ? "active-btn" : ""}`}>
-              What does NFT Collection Comprise of?
-            </p>
+            <p className={`${open[2] ? "active-btn" : ""}`}>要如何購買?</p>
             {open[2] ? (
               <FontAwesomeIcon
                 className={`${open[2] ? "active-btn" : ""}`}
@@ -101,8 +97,8 @@ function Faq() {
           </div>
           <div className={`faq-answer ${open[2] ? "active" : ""}`}>
             <p className="answer">
-              To sell your NFTs on a marketplace, you’ll need to locate them in
-              your collection, click on them and find the “sell” button.
+              NFT 已全數售完，請期待下個項目，任何最新消息會在官方 Discord
+              發佈。
             </p>
           </div>
         </div>
@@ -113,7 +109,7 @@ function Faq() {
             className={`faq-btn ${open[3] ? "border-radius" : ""}`}
           >
             <p className={`${open[3] ? "active-btn" : ""}`}>
-              What does NFT Collection Comprise of?
+              我也想發行 NFT 要怎麼做？
             </p>
             {open[3] ? (
               <FontAwesomeIcon
@@ -126,58 +122,7 @@ function Faq() {
           </div>
           <div className={`faq-answer ${open[3] ? "active" : ""}`}>
             <p className="answer">
-              To sell your NFTs on a marketplace, you’ll need to locate them in
-              your collection, click on them and find the “sell” button.
-            </p>
-          </div>
-        </div>
-        <div className="faq-q-div">
-          <div
-            data-num={4}
-            onClick={clickHandler}
-            className={`faq-btn ${open[4] ? "border-radius" : ""}`}
-          >
-            <p className={`${open[4] ? "active-btn" : ""}`}>
-              What does NFT Collection Comprise of?
-            </p>
-            {open[4] ? (
-              <FontAwesomeIcon
-                className={`${open[4] ? "active-btn" : ""}`}
-                icon={faMinusSquare}
-              />
-            ) : (
-              <FontAwesomeIcon icon={faPlusSquare} />
-            )}
-          </div>
-          <div className={`faq-answer ${open[4] ? "active" : ""}`}>
-            <p className="answer">
-              To sell your NFTs on a marketplace, you’ll need to locate them in
-              your collection, click on them and find the “sell” button.
-            </p>
-          </div>
-        </div>
-        <div className="faq-q-div">
-          <div
-            data-num={5}
-            onClick={clickHandler}
-            className={`faq-btn ${open[5] ? "border-radius" : ""}`}
-          >
-            <p className={`${open[5] ? "active-btn" : ""}`}>
-              What does NFT Collection Comprise of?
-            </p>
-            {open[5] ? (
-              <FontAwesomeIcon
-                className={`${open[5] ? "active-btn" : ""}`}
-                icon={faMinusSquare}
-              />
-            ) : (
-              <FontAwesomeIcon icon={faPlusSquare} />
-            )}
-          </div>
-          <div className={`faq-answer ${open[5] ? "active" : ""}`}>
-            <p className="answer">
-              To sell your NFTs on a marketplace, you’ll need to locate them in
-              your collection, click on them and find the “sell” button.
+              歡迎前往我們公司官網 www.neo.cafe 查看服務項目。
             </p>
           </div>
         </div>

@@ -154,7 +154,7 @@
   transition: all 0.2s ease;
 }
 .pink {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #aadde4 !important;
 }
 .dark-blue {
@@ -163,7 +163,7 @@
 /* ROADMAP ENDS */
 @media (max-width: 1400px) {
   .roadmap-box-content {
-    width: 400px;
+    width: 450px;
   }
   .pink {
     font-size: 2rem;
