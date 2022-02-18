@@ -155,10 +155,10 @@
 }
 .pink {
   font-size: 2.5rem;
-  color: #aadde4 !important;
+  color: black !important;
 }
 .dark-blue {
-  color: #a98025;
+  color: black;
 }
 /* ROADMAP ENDS */
 @media (max-width: 1400px) {
