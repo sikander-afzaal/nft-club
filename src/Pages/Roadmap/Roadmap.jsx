@@ -20,7 +20,6 @@ function Roadmap() {
       const box3Top = box3.current.getBoundingClientRect().top;
       const box4Top = box4.current.getBoundingClientRect().top;
       const box5Top = box5.current.getBoundingClientRect().top;
-      // dasdasdasda
       if (bottleTop > boxTop) {
         milkRef.current.style.height = "20px";
       } else {
@@ -114,18 +113,6 @@ function Roadmap() {
                   </p>
                 </div>
               </div>
-              {/* <div className="roadmap-box" ref={box6}>
-                <div className="roadmap-box-content right">
-                  <p className="fs-48px teko pink weight-7 lh-42px mb-10px">
-                    100% - BREEDING
-                  </p>
-                  <p className="fs-18px dark-blue lh-26px weight-5">
-                    To sell your NFTs on a marketplace, you’ll need to locate
-                    them in your collection, click on them and find the “sell”
-                    button.
-                  </p>
-                </div>
-              </div> */}
             </div>
           </div>
         </div>
