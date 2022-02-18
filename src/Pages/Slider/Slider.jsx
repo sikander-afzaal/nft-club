@@ -5,7 +5,7 @@ import "@splidejs/splide/dist/css/splide.min.css";
 import { sliderDataA } from "./Data/SliderDataA.js";
 import { sliderDataB } from "./Data/SliderDataB.js";
 import head from "../../Assets/headings/collection.png";
-function Slider({ imageSelector }) {
+function Slider() {
   return (
     <div className="swiper">
       <img src={head} alt="" className="heading" />
@@ -45,12 +45,7 @@ function Slider({ imageSelector }) {
         {sliderDataA.map((d, i) => {
           return (
             <SplideSlide key={i}>
-              <img
-                className="slider-img"
-                // onClick={(e) => imageSelector(e)}
-                src={d.img}
-                alt="..."
-              />
+              <img className="slider-img" src={d.img} alt="..." />
             </SplideSlide>
           );
         })}
@@ -92,12 +87,7 @@ function Slider({ imageSelector }) {
         {sliderDataB.map((d, i) => {
           return (
             <SplideSlide key={i}>
-              <img
-                className="slider-img"
-                // onClick={(e) => imageSelector(e)}
-                src={d.img}
-                alt="..."
-              />
+              <img className="slider-img" src={d.img} alt="..." />
             </SplideSlide>
           );
         })}
